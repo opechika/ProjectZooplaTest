@@ -62,6 +62,7 @@ namespace TestZooplaProject.StepDefinitions
         {
             searchResultPage
                 .IsTitleDisplayedForProperty(property, location);
+            searchResultPage.IsResultDisplayed();
         }
 
         [Then(@"I click on any of the results")]
